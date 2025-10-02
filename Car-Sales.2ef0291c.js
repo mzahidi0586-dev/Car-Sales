@@ -207,11 +207,11 @@
       });
     }
   }
-})({"bdi6p":[function(require,module,exports,__globalThis) {
+})({"eluO8":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 3001;
+var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -70518,6 +70518,6 @@ module.exports = import("./purify.f659f139.js").then(()=>module.bundle.root('1IH
 },{"1IHUz":"1IHUz"}],"97tTU":[function(require,module,exports,__globalThis) {
 module.exports = import("./index.es.34fb467d.js").then(()=>module.bundle.root('63Yt8'));
 
-},{"63Yt8":"63Yt8"}]},["bdi6p","lzhIH"], "lzhIH", "parcelRequire2fbf", {}, null, null, "http://localhost:3001")
+},{"63Yt8":"63Yt8"}]},["eluO8","lzhIH"], "lzhIH", "parcelRequire2fbf", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=Car-Sales.2ef0291c.js.map
