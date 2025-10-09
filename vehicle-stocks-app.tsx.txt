@@ -133,6 +133,11 @@ const VehicleStockApp = () => {
       alert('Please enter customer email');
       return;
     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(newSale.customerEmail)) {
+      alert('Please enter a valid email address');
+      return;
+    }
     if (!newSale.customerPhone) {
       alert('Please enter customer phone');
       return;
